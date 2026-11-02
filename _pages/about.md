@@ -26,7 +26,11 @@ latest_posts:
 
 I'm a theoretical physicist finishing my PhD at the Max Planck Institute for the Physics of Complex Systems and the Center for Systems Biology Dresden, supervised by Ricard Alert. I study how cells and tissues sense and reshape their physical environment, and how the resulting feedback loops organize collective behavior. Along the way I've built a toolkit in continuum modeling, numerical simulation, and quantitative data analysis. Above all, I'm passionate about curiosity-driven science, so please reach out if anything here sparks your interest or with whatever you are passionate about.
 
+<p class="contact-email">You can reach me at <span>hannoh[at]pks.mpg.de</span></p>
+
 <style>
   .profile img, img.preview, .preview img { box-shadow: none !important; border-radius: 0 !important; }
+  .contact-email { margin-top: 1rem; }
+  .contact-email span { font-weight: 500; color: var(--global-theme-color); }
 </style>
 <script defer src="{{ '/assets/js/publication_preview_links.js' | relative_url }}"></script>

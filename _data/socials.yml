@@ -6,8 +6,10 @@
 # value (e.g. `cv_pdf:`) crashes jekyll-socials, and `rss_icon: false` still
 # renders — hide an icon by removing its line, not by setting it false/empty.
 #
-# email hidden for now — uncomment to show the mail icon:
-# email: hanno@hennighausen.de
+# email is shown as spam-safe obfuscated text ("hannoh[at]pks.mpg.de") on
+# _pages/about.md, NOT as a mail-icon link here (a mailto: link is what spam
+# harvesters scrape). Uncomment below only if you want the clickable mail icon:
+# email: hannoh@pks.mpg.de
 # cv_pdf: /assets/pdf/hennighausen_cv.pdf  # add once the CV PDF is in assets/pdf/
 scholar_userid: 85fH-lwAAAAJ # Google Scholar ID
 orcid_id: 0009-0006-7787-5106 # ORCID iD
